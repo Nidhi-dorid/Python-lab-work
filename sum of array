@@ -1,0 +1,18 @@
+Question10 -python program to find sum of array
+
+import array as ar
+
+def SumofArray(arr):
+    sum=0
+    n = len(arr)
+    for i in range(n):
+        sum = sum + arr[i]
+    return sum
+  
+
+a = ar.array('i',[10, 21, 12, 13])
+  
+print ('Sum of the array is ', SumofArray(a) )
+
+output:
+sum of array is 56
