@@ -1,0 +1,16 @@
+Que.Python program to find the size of a Tuple.
+
+
+mytuple1=(89,45,34)
+mytuple2=("girl","bus","loin")
+print(mytuple1)
+print(mytuple2)
+print("size of mytuple1:",len(mytuple1))
+print("size of mytuple2:",len(mytuple2))
+
+output:
+89, 45, 34)
+('girl', 'bus', 'loin')
+size of mytuple1: 3
+size of mytuple2: 3
+
