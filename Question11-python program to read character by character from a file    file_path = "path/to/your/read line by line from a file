@@ -1,0 +1,20 @@
+Question11-python program to read line by line from a file
+
+
+
+L = ['This is Delhi\n ','This is Paris\n ','This is London \n']
+file1=open("myfile.txt","w")
+file1.writelines(L)
+file1.close()
+file1=open("myfile.txt","r")
+lines=file1.readlines()
+count=0
+for line in lines:
+    count+=1
+    print("line{}:{}".format(count,line.strip()))
+    
+  output:  
+  line1:This is Delhi
+  line2:This is Paris
+  line3:This is London
+
