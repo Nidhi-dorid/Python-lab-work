@@ -1,0 +1,19 @@
+Que.Python program to find smallest and largest number in a list.
+
+list1=[]
+num=int(input("enter number of element in list:"))
+
+for i in range(1,num+1):
+ ele=int(input("enter elements for list:"))
+ list1.append(ele)
+print("smallest element is:",min(list1))
+print("largest element is:",max(list1))
+
+output:
+enter number of element in list:4
+enter elements for list:23
+enter elements for list:13
+enter elements for list:45
+enter elements for list:26
+smallest element is: 13
+largest element is: 45
