@@ -1,0 +1,67 @@
+
+
+L = ['This is Delhi\n ','This is Paris\n ','This is London \n']
+file1=open("file.txt","w")
+file1.writelines(L)
+file1.close()
+file1=open("file.txt","r")    
+
+
+while 1:
+
+    char = file1.read(1)         
+    if not char:
+        break
+
+    print(char)
+
+file1.close()
+
+output:
+T
+T
+h
+i
+s
+ 
+i
+s
+ 
+D
+e
+l
+h
+i
+
+
+ 
+T
+h
+i
+s
+ 
+i
+s
+ 
+P
+a
+r
+i
+s
+
+
+ 
+T
+h
+i
+s
+ 
+i
+s
+ 
+L
+o
+n
+d
+o
+n
