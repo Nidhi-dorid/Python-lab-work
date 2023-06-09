@@ -13,3 +13,18 @@ else:
     print("The number isn't a palindrome!")
     
     output-- This is a palindrome
+
+
+OR
+a="12321"
+rev=a[::-1]
+print(rev)
+if(rev==a):
+    print("It is a pallindrome number")
+else:
+    print("it is not a pallindrome number")
+ 
+ 
+ Output:
+ 12321
+It is a pallindrome number
