@@ -1,7 +1,7 @@
 
 Question11-python program to read line by line from a file    
 
-list=["hello! \n","welcome to Nidhi-dorid \n","enjoy you jorney \n"]
+list=["hello! \n","welcome to Nidhi-dorid \n","enjoy you journey \n"]
 file=open("file.txt","w")
 file.writelines(list)
 file.close()
@@ -17,5 +17,5 @@ for line in lines:
 
     welcome to Nidhi-dorid 
 
-    enjoy you jorney
+    enjoy you journey
     
