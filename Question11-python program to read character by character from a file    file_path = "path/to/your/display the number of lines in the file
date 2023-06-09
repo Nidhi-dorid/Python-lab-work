@@ -1,0 +1,40 @@
+Question11-display the number of lines in the file 
+
+
+
+L = ['This is Delhi\n ','This is Paris\n ','This is London \n']
+file1=open("myfile.txt","w")
+file1.writelines(L)
+file1.close()
+file1=open("myfile.txt","r")
+lines=file1.readlines()
+count=0
+for line in lines:
+    count+=1
+    print("line{}:{}".format(count,line.strip()))
+    
+  output:  
+  line1:This is Delhi
+  line2:This is Paris
+  line3:This is London
+  
+list=["hello! \n","welcome to Nidhi-dorid \n","enjoy you jorney \n"]
+file=open("file.txt","w")
+file.writelines(list)
+file.close()
+file=open("file.txt","r")
+lines=file.readlines()
+count=0
+for line in lines:
+    count+=1
+    print(line)
+    print(count)
+    
+  output:
+hello! 
+1
+welcome to Nidhi-dorid 
+2
+enjoy you jorney 
+3
+
