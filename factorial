@@ -15,4 +15,4 @@ else:
    print("The factorial of", num, "is", recur_factorial(num))
 output
 
-the value of factorial is 120
+the value of factorial5 is 120
