@@ -15,7 +15,7 @@ else:
     output-- This is a palindrome
 
 
-OR
+Question-wrte a program to check string whether it is palidrome or not
 a="12321"
 rev=a[::-1]
 print(rev)
