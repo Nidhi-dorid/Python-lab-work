@@ -1,0 +1,16 @@
+integer = 153
+string = str(integer)
+empty = []
+sum=0
+for items in string:
+    empty.append(int(items))
+print(empty)
+for items in empty:
+    sum=sum+int(items)
+print(sum)
+d=integer//sum
+print(d)
+if(integer%sum==0):
+    print("harshad number")
+else:
+    print("error")
