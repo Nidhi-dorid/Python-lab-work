@@ -1,0 +1,29 @@
+num=18
+i=1
+sum=0
+while(i<num):
+    if(num%i==0):
+        print(i)
+        sum=sum+i
+    i+=1    
+print(sum)
+if(sum>num):
+    print("abundant number")
+else:
+    print("error")
+#Abundant number  12 having a proper divisor is 1, 2, 3, 4, 6 
+
+The sum of these factors is 16 it is greater than 12 
+So it is an Abundant number
+
+Some other abundant numbers: 
+
+18, 20, 30, 70, 78, 80, 84, 90, 96, 100, 104, 108, 120
+abundant or not in c
+Working:-
+For user input num
+
+Find all proper divisors of num
+Calculate the sum of these divisors
+If sum > num : Abundant number
+Else, not an Abundant number
